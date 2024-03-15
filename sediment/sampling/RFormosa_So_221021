@@ -1,0 +1,121 @@
+
+
+
+@base <http://data.emobon.embrc.eu/emobon/sampling/RFormosa/sediment/RFormosa_So_221021> . <> 
+    a sosa:Sampling, prov:Activity ;  
+    
+    dct:type "sampling"^^xsd:string ; 
+    prov:startedAtTime '2022-10-21'^^xsd:string ; 
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name 'Bruno Louro'^^xsd:string ;
+        schema:identifier 'https://orcid.org/0000-0001-8164-581X'^^xsd:anyURI ;
+    ] ;
+    
+    sosa:resultTime '2022-10-21'^^xsd:string ; 
+    sosa:madeBySampler 'NA'^^xsd:string ; 
+    sosa:usedProcedure [
+        a sosa:Procedure ; 
+        rdfs:label 'SoSOP 1'^^xsd:string ;
+        rdfs:comment 'NA'^^xsd:string ; 
+        ] ; 
+    emobon:tidalStage 'low_tide'^^xsd:string ;
+    emobon:samplingDepth 'NA'^^xsd:string ; 
+    emobon:waterColumnDepth '0'^^xsd:string ; 
+    emobon:originCountry 'Portugal'^^xsd:string ; 
+    
+    sosa:hasFeatureOfInterest 'NA'^^xsd:string;
+    sosa:hasFeatureOfInterest 'metagenome'^^xsd:string ;
+    sosa:hasFeatureOfInterest 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644'^^xsd:anyURI ; 
+    sosa:hasFeatureOfInterest 'micro'^^xsd:string ;
+    
+    sosa:hasResult </emobon/sample/RFormosa/sediment/RFormosa_So_221021> ;
+.
+</emobon/sample/RFormosa/sediment/RFormosa_So_221021>
+    a sosa:Sample, prov:Entity ;
+    
+    sosa:isSampleOf 'NA'^^xsd:string;
+    sosa:isSampleOf 'metagenome'^^xsd:string ;
+    sosa:isSampleOf 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644'^^xsd:anyURI ; 
+    sosa:isSampleOf 'micro'^^xsd:string ;
+    
+    sosa:hasResult </emobon/sample/RFormosa/sediment/EMOBON_RFormosa_So_221021_micro_blank> ;
+.
+</emobon/sample/RFormosa/sediment/EMOBON_RFormosa_So_221021_micro_blank>
+    a sosa:Sample, prov:Entity ;
+    
+    rdfs:label 'EMO BON RFormosa SO 221021 blank'^^xsd:string ; 
+    dct:description 'EMOBON metagenome sediment sample from station RFormosa collected on 2022-10-21 community collected micro'^^xsd:string ;
+    emobon:enaSampleAccNum 'NA'^^xsd:anyURI ;
+    emobon:sampleReplicate 'blank'^^xsd:string ;
+    emobon:sampleDepth 'NA'^^xsd:string ;
+    emobon:hasSampleSize 'NA'^^xsd:string ; 
+    emobon:upperFilterSize 'NA'^^xsd:string ; 
+    emobon:lowerFilterSize 'NA'^^xsd:string ; 
+    
+    sosa:isSampleOf'NA'^^xsd:string;
+    sosa:isSampleOf 'metagenome'^^xsd:string ;
+    sosa:isSampleOf 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644'^^xsd:anyURI ; 
+    sosa:isSampleOf 'micro'^^xsd:string ;
+
+    
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name 'Bruno Louro'^^xsd:string ;
+        schema:identifier 'https://orcid.org/0000-0001-8164-581X'^^xsd:anyURI ;
+    ] , [
+        a prov:Person, schema:Person ;
+        schema:name 'Bruno Louro'^^xsd:string ;
+        schema:identifier 'https://orcid.org/0000-0001-8164-581X'^^xsd:anyURI ;
+    ]  ; 
+    prov:wasGeneratedBy [
+        a prov:Activity ;
+        dct:type "storage"^^xsd:string ; 
+        dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ; 
+        prov:startedAtTime 'NA'^^xsd:string ; 
+        
+        prov:wasInformedBy [
+            
+            a prov:Activity ;
+            dct:type "transport"^^xsd:string ; 
+            dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ; 
+            prov:startedAtTime 'NA'^^xsd:string ;
+            prov:endedAtTime 'NA'^^xsd:string ;
+            
+            prov:wasInformedBy [
+                
+                a prov:Activity ;
+                dct:type "storage"^^xsd:string ; 
+                dct:description "Storage of sample at HMBRC HQ"^^xsd:string ; 
+                prov:startedAtTime 'NA'^^xsd:string ;
+                emobon:storageTemp 'NA'^^xsd:string ; 
+
+                prov:wasInformedBy [
+                    
+                    a prov:Activity ;
+                    dct:type "transport"^^xsd:string ; 
+                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ; 
+                    prov:startedAtTime 'NA'^^xsd:string ;
+                    prov:endedAtTime 'NA'^^xsd:string ; 
+                    
+                    prov:wasInformedBy [
+                        a prov:Activity ;
+                        dct:type "storage"^^xsd:string ; 
+                        dct:description "Local storage of the collected sample"^^xsd:string ; 
+                        prov:startedAtTime '2022-10-21'^^xsd:string ;
+                        prov:wasAssociatedWith [
+                            prov:Person, schema:Person ;
+                            schema:name 'Bruno Louro'^^xsd:string ;
+                        schema:identifier 'https://orcid.org/0000-0001-8164-581X'^^xsd:anyURI ;
+                        ] ;
+                        emobon:storageTemp '-80'^^xsd:string ; 
+                        emobon:storageLoc 'Ed7, room 1.10, freezer #300387-118'^^xsd:string ; 
+
+                        prov:wasInformedBy <> ; 
+                    ] ; 
+                ] ; 
+            ] ; 
+        ] ; 
+    ] ;
+.
+

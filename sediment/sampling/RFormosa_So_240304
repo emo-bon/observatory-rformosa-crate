@@ -1,0 +1,55 @@
+
+
+
+@base <http://data.emobon.embrc.eu/emobon/sampling/RFormosa/sediment/RFormosa_So_240304> . <> 
+    a sosa:Sampling, prov:Activity ;  
+    
+    dct:type "sampling"^^xsd:string ; 
+    prov:startedAtTime ''^^xsd:string ; 
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name ''^^xsd:string ;
+    ] ;
+    
+    sosa:resultTime ''^^xsd:string ; 
+    sosa:madeBySampler ''^^xsd:string ; 
+    sosa:usedProcedure [
+        a sosa:Procedure ; 
+        rdfs:label ''^^xsd:string ;
+        rdfs:comment ''^^xsd:string ; 
+        ] ; 
+    emobon:tidalStage ''^^xsd:string ;
+    emobon:waterColumnDepth '0'^^xsd:string ; 
+    emobon:originCountry 'Portugal'^^xsd:string ; 
+     
+    sosa:hasFeatureOfInterest 'micro'^^xsd:string ;
+    
+    sosa:hasResult </emobon/sample/RFormosa/sediment/RFormosa_So_240304> ;
+.
+</emobon/sample/RFormosa/sediment/RFormosa_So_240304>
+    a sosa:Sample, prov:Entity ;
+     
+    sosa:isSampleOf 'micro'^^xsd:string ;
+    
+    sosa:hasResult </emobon/sample/RFormosa/sediment/EMOBON_RFormosa_So_240304_micro_blank> ;
+.
+</emobon/sample/RFormosa/sediment/EMOBON_RFormosa_So_240304_micro_blank>
+    a sosa:Sample, prov:Entity ;
+    
+    rdfs:label 'EMO BON RFormosa SO 240304 blank'^^xsd:string ; 
+    dct:description ''^^xsd:string ;
+    emobon:sampleReplicate 'blank'^^xsd:string ;
+     
+    sosa:isSampleOf 'micro'^^xsd:string ;
+
+    
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name ''^^xsd:string ;
+    ] , [
+        a prov:Person, schema:Person ;
+        schema:name ''^^xsd:string ;
+    ]  ; 
+    prov:wasGeneratedBy <> ;
+.
+

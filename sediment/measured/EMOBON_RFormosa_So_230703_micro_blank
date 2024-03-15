@@ -1,0 +1,60 @@
+
+
+
+@base <http://data.emobon.embrc.eu/emobon/observation/RFormosa/sediment/EMOBON_RFormosa_So_230703_micro_blank> . 
+
+<#chlorophyll>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ;
+    
+    sosa:hasResult [
+        a sosa:Result ; 
+        rdf:type qudt:QuantityValue ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
+    ] ;
+    schema:measurementTechnique 'NA'^^xsd:string ;
+    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/sediment/EMOBON_RFormosa_So_230703_micro_blank> ; 
+.
+
+<#diss_oxygen>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ;
+    
+    sosa:hasResult [
+        a sosa:Result ; 
+        rdf:type qudt:QuantityValue ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'NA'^^xsd:string ;
+    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/sediment/EMOBON_RFormosa_So_230703_micro_blank> ; 
+.
+
+<#pressure>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ;
+    
+    sosa:hasResult [
+        a sosa:Result ; 
+        rdf:type qudt:QuantityValue ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
+        qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
+    ] ;
+    schema:measurementTechnique 'NA'^^xsd:string ;
+    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/sediment/EMOBON_RFormosa_So_230703_micro_blank> ; 
+.
+
+<#sea_surf_salinity>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
+    
+    sosa:hasResult [
+        a sosa:Result ; 
+        rdf:type qudt:QuantityValue ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
+    ] ;
+    schema:measurementTechnique 'NA'^^xsd:string ;
+    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/sediment/EMOBON_RFormosa_So_230703_micro_blank> ; 
+.
