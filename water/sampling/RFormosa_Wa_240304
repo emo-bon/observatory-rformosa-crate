@@ -1,0 +1,51 @@
+
+@base <http://data.emobon.embrc.eu/emobon/sampling/RFormosa/water/RFormosa_Wa_240304> . <> 
+    a sosa:Sampling, prov:Activity ;  
+    
+    dct:type "sampling"^^xsd:string ; 
+    prov:startedAtTime ''^^xsd:string ; 
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name ''^^xsd:string ;
+    ] ;
+    
+    sosa:resultTime ''^^xsd:string ; 
+    sosa:madeBySampler ''^^xsd:string ;
+    sosa:usedProcedure [
+        a sosa:Procedure ; 
+        rdfs:label ''^^xsd:string ;
+        rdfs:comment ''^^xsd:string ; 
+        ] ;  
+    emobon:tidalStage ''^^xsd:string ;
+    emobon:waterColumnDepth '1'^^xsd:string ; 
+    emobon:originCountry 'Portugal'^^xsd:string ; 
+     
+    
+    sosa:hasResult </emobon/sample/RFormosa/water/RFormosa_Wa_240304> ;
+.
+</emobon/sample/RFormosa/water/RFormosa_Wa_240304>
+    a sosa:Sample, prov:Entity ;
+     
+    
+    sosa:hasResult </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_240304_0.2um_blank> ;
+.
+</emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_240304_0.2um_blank>
+    a sosa:Sample, prov:Entity ;
+    
+    rdfs:label 'EMO BON RFormosa Wa 240304 0.22um_Blank'^^xsd:string ; 
+    dct:description ''^^xsd:string ;
+    emobon:sampleReplicate 'blank'^^xsd:string ;
+    emobon:upperFilterSize '0.2'^^xsd:string ; 
+     
+
+    
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name ''^^xsd:string ;
+    ] , [
+        a prov:Person, schema:Person ;
+        schema:name ''^^xsd:string ;
+    ]  ; 
+    prov:wasGeneratedBy <> ;
+.
+
