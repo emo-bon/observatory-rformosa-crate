@@ -1,6 +1,4 @@
 Diagnosis,LogsheetType,LogsheetTab,Column,Row,Value,ExtendedDiagnosis,FilePath,DataType,Requirement
-scientific name error,water,sampling,scientific_name,119,marine plankton metagenome,scientific_name should be unidentified,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,mandatory
-scientific name error,water,sampling,scientific_name,120,marine plankton metagenome,scientific_name should be unidentified,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,mandatory
 missing value,water,sampling,ENA_accession_number_sample,1,<empty>,\,/github/workspace/logsheets/filtered/water_sampling.csv,XSDAnyURI,mandatory
 missing value,water,sampling,ENA_accession_number_sample,2,<empty>,\,/github/workspace/logsheets/filtered/water_sampling.csv,XSDAnyURI,mandatory
 missing value,water,sampling,ENA_accession_number_sample,5,<empty>,\,/github/workspace/logsheets/filtered/water_sampling.csv,XSDAnyURI,mandatory

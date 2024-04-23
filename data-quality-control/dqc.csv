@@ -1,8 +1,6 @@
 diagnosis,table,column,row,value,repair,extended_diagnosis,file_path,data_type,nullable
 organization edmoid error,so,organization_edmoid,1,2516,https://edmo.seadatanet.org/report/2516,organization edmoid should be a list of URIs,/github/workspace/logsheets/filtered/sediment_observatory.csv,EMOBONList,False
 organization edmoid error,wo,organization_edmoid,1,2516,https://edmo.seadatanet.org/report/2516,organization edmoid should be a list of URIs,/github/workspace/logsheets/filtered/water_observatory.csv,EMOBONList,False
-scientific name error,ws,scientific_name,119,marine plankton metagenome,,scientific_name should be unidentified,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
-scientific name error,ws,scientific_name,120,marine plankton metagenome,,scientific_name should be unidentified,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 datatype mismatch,so,loc_broad_ocean_mrgid,1,1902,http://marineregions.org/mrgid/1902,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_loc_mrgid,1,29473,http://marineregions.org/mrgid/29473,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_regional_mrgid,1,1912,http://marineregions.org/mrgid/1912,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
