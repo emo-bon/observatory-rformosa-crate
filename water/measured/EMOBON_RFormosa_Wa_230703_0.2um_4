@@ -1,20 +1,31 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> . 
+@prefix prov: <http://www.w3.org/ns/prov#> . 
+@prefix sosa: <http://www.w3.org/ns/sosa/> . 
+@prefix ssn: <http://www.w3.org/ns/ssn/> . 
+@prefix qudt: <http://qudt.org/schema/qudt/> . 
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mr: <http://marineregions.org/ns/ontology#> .
+@prefix emobon: <http://www.embrc.eu/emobon/EmoBonOntology#> .
 
 
-
-@base <http://data.emobon.embrc.eu/emobon/observation/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> . 
+@base <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/measured/EMOBON_RFormosa_Wa_230703_0.2um_4> . 
 
 <#chlorophyll>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '14.7492'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
     ] ;
     schema:measurementTechnique 'Fluorometer 10-AU'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#diss_oxygen>
@@ -22,13 +33,12 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '8.4'^^xsd:string ; 
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '262.5'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'YSI ProSolo Digital'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#ph>
@@ -36,13 +46,23 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '8.371'^^xsd:string ; 
-        qudt:unit 'NA'^^xsd:string ; 
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '8.371'^^xsd:string ;  
     ] ;
     schema:measurementTechnique 'Thermo scientific  orion star A221'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> ; 
+    sosa:hasFeatureOfInterest <> ; 
+.
+
+<#ph>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '8.371'^^xsd:string ;  
+    ] ;
+    schema:measurementTechnique 'Thermo scientific  orion star A221'^^xsd:string ;
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#pressure>
@@ -50,13 +70,12 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '1.002121885'^^xsd:string ; 
         qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
     ] ;
     schema:measurementTechnique 'YSI ProSolo Digital'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#sea_subsurf_salinity>
@@ -64,13 +83,12 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '37.91'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'YSI ProSolo Digital'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#sea_subsurf_temp>
@@ -78,13 +96,12 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '27.7'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'Thermo scientific  orion star A221'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#sea_surf_salinity>
@@ -92,13 +109,12 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '37.91'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'YSI ProSolo Digital'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#sea_surf_temp>
@@ -106,25 +122,10 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '27.7'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'Thermo scientific  orion star A221'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> ; 
-.
-
-<#turbidity>
-    a sosa:Observation, schema:Observation ;
-    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/TURBXXXX/> ;
-
-    sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '57044'^^xsd:string ; 
-        qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/USTU/> ; 
-    ] ;
-    schema:measurementTechnique 'YSI ProSolo Digital'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/RFormosa/water/EMOBON_RFormosa_Wa_230703_0.2um_4> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
