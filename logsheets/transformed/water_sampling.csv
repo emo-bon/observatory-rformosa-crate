@@ -29,13 +29,17 @@ EMO BON RFormosa Wa 211220 0.22um_3,EMOBON metagenome water sample from station 
 EMO BON RFormosa Wa 211220 0.22um_4,EMOBON metagenome water sample from station RFormosa collected on 2021-12-20 size fraction 0.2-3um,https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687,marine plankton metagenome,metagenome,lagoon [ENVO_00000038];marine water body [ENVO:00001999]; surface water [ENVO:00002042],2021-12-20,RFormosa_Wa_211220,Bruno Louro,https://orcid.org/0000-0001-8164-581X,low_tide,,0.2,4,5,fi,0.2-3,0.2,3,true,bucket,WaSOP 1,peristaltic pump,2021-12-20,"Ed7, room 1.10, freezer #300387-118",-80,Bruno Louro,https://orcid.org/0000-0001-8164-581X,,,true,NA,NA,NA,NA,NA,NA,NA,NA,EMOBON_RFormosa_Wa_28
 EMO BON RFormosa Wa 211220 3um_Blank,EMOBON metagenome water sample from station RFormosa collected on 2021-12-20 size fraction 3-200um,https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318,metagenome,metagenome,lagoon [ENVO_00000038];marine water body [ENVO:00001999]; surface water [ENVO:00002042],2021-12-20,RFormosa_Wa_211220,Bruno Louro,https://orcid.org/0000-0001-8164-581X,low_tide,,NA,blank_1,5,fi,3-200,3,200,false,NA,WaSOP 1,peristaltic pump,2021-12-20,"Ed7, room 1.10, freezer #300387-118",-80,Bruno Louro,https://orcid.org/0000-0001-8164-581X,,,false,2022-01-24,2022-02-02,-70,2022-02-22,2022-02-23,true,blank; non-quantifiable DNA after extraction,NA,EMOBON_RFormosa_Wa_29
 EMO BON RFormosa Wa 211220 0.22um_Blank,EMOBON metagenome water sample from station RFormosa collected on 2021-12-20 size fraction 0.2-3um,https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318,metagenome,metagenome,lagoon [ENVO_00000038];marine water body [ENVO:00001999]; surface water [ENVO:00002042],2021-12-20,RFormosa_Wa_211220,Bruno Louro,https://orcid.org/0000-0001-8164-581X,low_tide,,NA,blank_1,5,fi,0.2-3,0.2,3,false,NA,WaSOP 1,peristaltic pump,2021-12-20,"Ed7, room 1.10, freezer #300387-118",-80,Bruno Louro,https://orcid.org/0000-0001-8164-581X,,,false,2022-01-24,2022-02-02,-70,2022-02-22,2022-02-23,true,blank; non-quantifiable DNA after extraction,NA,EMOBON_RFormosa_Wa_30
-EMO BON RFormosa Wa 241106 0.22um_1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EMO BON RFormosa Wa 241106 0.22um_2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EMO BON RFormosa Wa 241106 0.22um_1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,to ship,,,,,,,,
+EMO BON RFormosa Wa 241106 0.22um_2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,to ship,,,,,,,,
 EMO BON RFormosa Wa 241106 0.22um_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EMO BON RFormosa Wa 241106 0.22um_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EMO BON RFormosa Wa 241106 3um_1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EMO BON RFormosa Wa 241106 3um_2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EMO BON RFormosa Wa 241106 3um_1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,to ship,,,,,,,,
+EMO BON RFormosa Wa 241106 3um_2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,to ship,,,,,,,,
 EMO BON RFormosa Wa 241106 3um_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EMO BON RFormosa Wa 241106 3um_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EMO BON RFormosa Wa 241106 3um_Blank,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EMO BON RFormosa Wa 241106 0.22um_Blank,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EMO BON RFormosa Wa Dec24 0.22um_1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,to ship,,,,,,,,
+EMO BON RFormosa Wa Dec24 0.22um_2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,to ship,,,,,,,,
+EMO BON RFormosa Wa Dec24 3um_1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,to ship,,,,,,,,
+EMO BON RFormosa Wa Dec24 3um_2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,to ship,,,,,,,,
