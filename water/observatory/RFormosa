@@ -10,39 +10,43 @@
 @prefix sf: <http://www.opengis.net/ont/sf#> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix mr: <http://marineregions.org/ns/ontology#> .
-@prefix emobon: <http://www.embrc.eu/emobon/EmoBonOntology#> .
+@prefix emobon-sequence: <https://data.emobon.embrc.eu/ns/sequence#> .
+@prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
+@prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
+@prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
 
 @base <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observatory/RFormosa> . 
 
 <> 
-    a emobon:Observatory ; 
-    emobon:sampleType emobon:Water ;
-    emobon:observatoryId 'RFormosa'^^xsd:string ;
-    emobon:observatorySampleId 'RFormosa Wa'^^xsd:string ; 
+    a emobon-core:Observatory ; 
+    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#water> ;
+    emobon-core:observatoryId 'RFormosa'^^xsd:string ;
+    emobon-core:observatorySampleId 'RFormosa Wa'^^xsd:string ; 
 
     dct:isPartOf [
         a schema:Project ;
         schema:name 'EMOBON'^^xsd:string ;
         schema:description "The EMO BON project"^^xsd:string ;
-        emobon:enaProjAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51688'^^xsd:anyURI ;
+        emobon-core:enaProjAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51688'^^xsd:anyURI ;
     ] ;
-    emobon:siteInfo 'Yes, it’s OSD sampling site ID OSD81, annually sampled in OSD2014, OSD2015, OSD2016, OSD2018, OSD2019, and 12x monthly series of OSD2020. Is near the UALG experimental station Ramalhete. The site is a channel of a lagunar system and sampling always take place with out going current (lowering tide).'^^xsd:string ;
-    emobon:broadBiome  'marine biome [ENVO:00000447]'^^xsd:string,  ''^^xsd:string;
-    emobon:localBiome 'lagoon [ENVO_00000038]'^^xsd:string, 'marine water body [ENVO:00001999]'^^xsd:string;
-    emobon:marineRegionName 'Atlantic Ocean'^^xsd:string ;
-    emobon:marineRegion 'http://marineregions.org/mrgid/1902'^^xsd:anyURI ;
-    emobon:marineRegionName 'North Atlantic Ocean'^^xsd:string ;
-    emobon:marineRegion 'http://marineregions.org/mrgid/1912'^^xsd:anyURI ;
-    emobon:marineRegionName 'Ria Formosa'^^xsd:string ;
-    emobon:marineRegion 'http://marineregions.org/mrgid/29473'^^xsd:anyURI ;
-    emobon:geoLocation [ 
+    emobon-core:siteInfo 'Yes, it’s OSD sampling site ID OSD81, annually sampled in OSD2014, OSD2015, OSD2016, OSD2018, OSD2019, and 12x monthly series of OSD2020. Is near the UALG experimental station Ramalhete. The site is a channel of a lagunar system and sampling always take place with out going current (lowering tide).'^^xsd:string ;
+    emobon-core:broadBiome  'marine%20biome%20%5BENVO:00000447%5D'^^xsd:anyURI;
+    emobon-core:localBiome 'lagoon%20%5BENVO_00000038%5D'^^xsd:anyURI, 'marine%20water%20body%20%5BENVO:00001999%5D'^^xsd:anyURI;
+    emobon-core:marineRegionName 'Atlantic Ocean'^^xsd:string ;
+    emobon-core:marineRegion 'http://marineregions.org/mrgid/1902'^^xsd:anyURI ;
+    emobon-core:marineRegionName 'North Atlantic Ocean'^^xsd:string ;
+    emobon-core:marineRegion 'http://marineregions.org/mrgid/1912'^^xsd:anyURI ;
+    emobon-core:marineRegionName 'Ria Formosa'^^xsd:string ;
+    emobon-core:marineRegion 'http://marineregions.org/mrgid/29473'^^xsd:anyURI ;
+    emobon-core:geoLocation [ 
         a sf:Point ; 
         geo:asWKT "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point (37.005639 -7.96925)" ;
     ]; 
     schema:contactPoint [ 
-        a emobon:Organization ;
+        a emobon-core:Organization ;
         schema:legalName 'Centre of Marine Sciences (CCMAR)'^^xsd:string ;
-        emobon:edmoId 'https://edmo.seadatanet.org/report/2516'^^xsd:anyURI ;
+        emobon-core:edmoId 'https://edmo.seadatanet.org/report/2516'^^xsd:anyURI ;
         schema:address [
             a schema:PostalAddress ;
             schema:addressCountry 'Portugal'^^xsd:string ; 
@@ -54,22 +58,26 @@
         ]
         ] ; 
     ] ;
-    emobon:waterColumnDepth '1'^^xsd:integer ;
-    emobon:originCountry 'Portugal'^^xsd:string ;
-    emobon:enaStudyAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51661'^^xsd:anyURI ;
-    emobon:hasMixsPackage 'water'^^xsd:string ; 
+    emobon-core:waterColumnDepth [
+        a qudt:QuantityValue ;
+            qudt:numericValue '1.0'^^xsd:double ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ;
+        ] ;
+    emobon-core:originCountry 'Portugal'^^xsd:string ;
+    emobon-core:enaStudyAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51661'^^xsd:anyURI ;
+    emobon-core:hasMixsPackage 'water'^^xsd:string ; 
 .
 
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1902>
-    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912> ;
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/1902>
+    mr:contains <http://marineregions.org/mrgid/> ;
 .
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912>
-    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F29473> ;
-    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1902> ; 
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912>
+    mr:contains <http://marineregions.org/mrgid/http://marineregions.org/mrgid/29473> ;
+    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/1902> ; 
 .
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F29473>
-    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912> ;
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/29473>
+    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912> ;
 .
