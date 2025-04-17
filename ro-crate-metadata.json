@@ -14,6 +14,7 @@
                 "@id": "https://data.emobon.embrc.eu/observatory-profile/0.22"
             },
             "contactPoint": {
+                "@id": "https://ror.org/0038zss60",
                 "@type": "ContactPoint",
                 "email": "emobon@embrc.eu"
             },
