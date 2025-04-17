@@ -11,7 +11,7 @@
             "@type": "Dataset",
             "accessURL": "https://raw.githubusercontent.com/emo-bon/observatory-rformosa-crate/main/ro-crate-metadata.json",
             "conformsTo": {
-                "@id": "https://data.emobon.embrc.eu/observatory-profile/0.22"
+                "@id": "https://data.emobon.embrc.eu/observatory-profile/latest"
             },
             "contactPoint": {
                 "@id": "https://ror.org/0038zss60",
