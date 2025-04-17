@@ -37,6 +37,9 @@
                     "@id": "data-quality-control/"
                 },
                 {
+                    "@id": "all-triples.ttl"
+                },
+                {
                     "@id": "logsheets/"
                 },
                 {
@@ -130,6 +133,11 @@
             "@label": "./README.md",
             "@type": "File",
             "encodingFormat": "text/markdown"
+        },
+        {
+            "@id": "all-triples.ttl", 
+            "@type": "File",
+            "encodingFormat": "text/turtle"
         },
         {
             "@id": "data-quality-control/dqc.csv",
