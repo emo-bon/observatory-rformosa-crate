@@ -5077,8 +5077,7 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -5086,7 +5085,8 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ] .
+            rdfs:label "SoSOP 1"^^xsd:string ;
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sampling/RFormosa_So_211220> a prov:Activity,
         sosa:Sampling ;
@@ -5186,10 +5186,10 @@
     sosa:madeBySampler "PVC core D50mm"^^xsd:string ;
     sosa:resultTime "2022-02-24"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -5242,10 +5242,10 @@
     sosa:madeBySampler "PVC core D50mm"^^xsd:string ;
     sosa:resultTime "2022-04-28"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -5304,13 +5304,13 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sampling/RFormosa_So_220909> a prov:Activity,
         sosa:Sampling ;
@@ -5357,10 +5357,10 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -5416,13 +5416,13 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sampling/RFormosa_So_221216> a prov:Activity,
         sosa:Sampling ;
@@ -5469,10 +5469,10 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -5522,10 +5522,10 @@
     sosa:madeBySampler "PVC core D50mm"^^xsd:string ;
     sosa:resultTime "2023-04-20"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -5637,10 +5637,10 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -5690,10 +5690,10 @@
     sosa:madeBySampler "PVC core D50mm"^^xsd:string ;
     sosa:resultTime "2023-10-25"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -20711,9 +20711,10 @@
 <file:///github/workspace/> a schema1:Dataset ;
     dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
     schema1:contactPoint <https://ror.org/0038zss60> ;
-    schema1:datePublished "2025-04-17T11:43:16+00:00" ;
+    schema1:datePublished "2025-04-30T17:15:17+00:00" ;
     schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory RFORMOSA" ;
     schema1:hasPart <file:///github/workspace/README.md>,
+        <file:///github/workspace/all-triples.ttl>,
         <file:///github/workspace/data-quality-control/>,
         <file:///github/workspace/data-quality-control/dqc.csv>,
         <file:///github/workspace/data-quality-control/logfile>,
@@ -20750,6 +20751,9 @@
 
 <file:///github/workspace/README.md> a schema1:MediaObject ;
     schema1:encodingFormat "text/markdown" .
+
+<file:///github/workspace/all-triples.ttl> a schema1:MediaObject ;
+    schema1:encodingFormat "text/turtle" .
 
 <file:///github/workspace/data-quality-control/> a schema1:Dataset .
 
@@ -33138,7 +33142,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33213,7 +33219,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33266,7 +33274,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33341,7 +33351,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33416,7 +33428,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33469,7 +33483,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33522,7 +33538,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33597,7 +33615,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33672,7 +33692,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33725,7 +33747,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33778,7 +33802,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33831,7 +33857,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33906,7 +33934,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -33959,7 +33989,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34034,7 +34066,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34109,7 +34143,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34162,7 +34198,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34215,7 +34253,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34290,7 +34330,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34365,7 +34407,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34418,7 +34462,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34471,7 +34517,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34546,7 +34594,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34599,7 +34649,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34674,7 +34726,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34727,7 +34781,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34802,7 +34858,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34877,7 +34935,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34930,7 +34990,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
@@ -34983,7 +35045,9 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-8164-581X"^^xsd:anyURI ;
-            schema:name "Bruno Louro"^^xsd:string ] ;
+            schema:name "Bruno Louro"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dct:description "Local storage of the collected sample"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
