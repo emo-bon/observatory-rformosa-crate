@@ -67,7 +67,9 @@
         a prov:Person, schema:Person ;
         schema:name 'Bruno Louro'^^xsd:string ;
         schema:identifier 'https://orcid.org/0000-0001-8164-581X'^^xsd:anyURI ;
-    ]  ; 
+    ] , [
+        a prov:Person, schema:Person ;
+    ] ; 
     prov:wasGeneratedBy [
         a prov:Activity ;
         dct:type "storage"^^xsd:string ; 
