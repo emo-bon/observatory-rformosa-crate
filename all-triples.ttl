@@ -1,12 +1,12 @@
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix emobon: <http://www.embrc.eu/emobon/EmoBonOntology#> .
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix mr: <http://marineregions.org/ns/ontology#> .
-@prefix ns1: <https://www.w3.org/ns/dcat#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix qudt: <http://qudt.org/schema/qudt/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -3666,6 +3666,481 @@
             qudt:numericValue "20.8"^^xsd:string ;
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
     sosa:observedProperty <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530&/soil-temperature> ;
+    schema:measurementTechnique "Hanna checkTemp thermometer"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/observation/#chlorophyll> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ] ;
+    schema:measurementTechnique "Fluorometer 10-AU"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/observation/#diss_oxygen> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ] ;
+    schema:measurementTechnique "YSI ProSolo Digital"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/observation/#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Thermo scientific  orion star A221"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/observation/#pressure> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ] ;
+    schema:measurementTechnique "YSI ProSolo Digital"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/observation/#redox_potential> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue -6.66e+01 ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UUMV/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue -3.83e+01 ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UUMV/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue -3.83e+01 ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UUMV/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue -6.66e+01 ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UUMV/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue -3.83e+01 ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UUMV/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue -6.66e+01 ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UUMV/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue -6.66e+01 ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UUMV/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "redox_potential"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/REDS/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "redox_potential"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/REDS/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "redox_potential"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/REDS/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "redox_potential"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/REDS/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "redox_potential"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/REDS/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "redox_potential"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/REDS/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "redox_potential"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/REDS/> ] ;
+    schema:measurementTechnique "Thermo scientific  orion star A221"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/observation/#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "YSI ProSolo Digital"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/observation/#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.76e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.76e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.76e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Thermo scientific  orion star A221"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/observation/#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.69e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.69e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.69e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
     schema:measurementTechnique "Hanna checkTemp thermometer"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/observation/EMOBON_RFormosa_So_1#chlorophyll> a csvw:Cell,
@@ -7464,13 +7939,13 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ] .
+            rdfs:label "SoSOP 1"^^xsd:string ;
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sampling/RFormosa_So_211022> a prov:Activity,
         sosa:Sampling ;
@@ -7520,10 +7995,10 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
@@ -7570,13 +8045,13 @@
     sosa:madeBySampler "PVC core D50mm"^^xsd:string ;
     sosa:resultTime "2021-12-20"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ;
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ;
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -7632,10 +8107,10 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
@@ -7685,10 +8160,10 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -7744,13 +8219,13 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ] .
+            rdfs:label "SoSOP 1"^^xsd:string ;
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sampling/RFormosa_So_220909> a prov:Activity,
         sosa:Sampling ;
@@ -7794,8 +8269,6 @@
     sosa:madeBySampler "PVC core D50mm"^^xsd:string ;
     sosa:resultTime "2022-09-09"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
@@ -7806,7 +8279,9 @@
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sampling/RFormosa_So_221021> a prov:Activity,
         sosa:Sampling ;
@@ -7850,16 +8325,16 @@
     sosa:madeBySampler "PVC core D50mm"^^xsd:string ;
     sosa:resultTime "2022-10-21"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ;
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ;
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ;
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
@@ -7909,10 +8384,10 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -8021,10 +8496,10 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -8080,13 +8555,13 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
-            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ] .
+            rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-rformosa-crate/sediment/sampling/RFormosa_So_231025> a prov:Activity,
         sosa:Sampling ;
@@ -8133,10 +8608,10 @@
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP 1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP 1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP 1"^^xsd:string ;
             rdfs:comment "Core with diameter of 50mm instead of 100mm. Added DNAshield much less amount, around 6ml."^^xsd:string ],
@@ -18603,6 +19078,1213 @@
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
     schema:measurementTechnique "Thermo scientific  orion star A230"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observation/#chlorophyll> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 5.99608e+00 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.67028e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "chlorophyll"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ] ;
+    schema:measurementTechnique "Fluorometer 10-AU"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observation/#diss_oxygen> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.44e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.59e+02 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "diss_oxygen"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ] ;
+    schema:measurementTechnique "YSI ProSolo Digital"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observation/#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.144e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.16e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Thermo scientific  orion star A221"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observation/#pressure> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.97286e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 9.923513e-01 ;
+            qudt:unit <https://qudt.org/vocab/unit/ATM> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "pressure"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ] ;
+    schema:measurementTechnique "YSI ProSolo Digital"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observation/#sea_subsurf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ] ;
+    schema:measurementTechnique "YSI ProSolo Digital"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observation/#sea_subsurf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_subsurf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ] ;
+    schema:measurementTechnique "Thermo scientific  orion star A231"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observation/#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.566e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.537e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "YSI ProSolo Digital"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observation/#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/sample/> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.89e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.74e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Thermo scientific  orion star A231"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-rformosa-crate/water/observation/EMOBON_RFormosa_Wa_1#chlorophyll> a csvw:Cell,
         sosa:Observation,
@@ -29561,7 +31243,7 @@
 <file:///github/workspace/> a schema1:Dataset ;
     dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
     schema1:contactPoint <https://ror.org/0038zss60> ;
-    schema1:datePublished "2025-05-08T13:51:32+00:00" ;
+    schema1:datePublished "2025-06-13T08:40:11+00:00" ;
     schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory RFORMOSA" ;
     schema1:hasPart <file:///github/workspace/README.md>,
         <file:///github/workspace/all-triples.ttl>,
@@ -29597,7 +31279,7 @@
     schema1:license "https://creativecommons.org/licenses/by/4.0/" ;
     schema1:publisher "https://www.embrc.eu/emo-bon" ;
     schema1:title "observatory-rformosa-crate" ;
-    ns1:accessURL "https://raw.githubusercontent.com/emo-bon/observatory-rformosa-crate/main/ro-crate-metadata.json" .
+    dcat:accessURL "https://raw.githubusercontent.com/emo-bon/observatory-rformosa-crate/main/ro-crate-metadata.json" .
 
 <file:///github/workspace/README.md> a schema1:MediaObject ;
     schema1:encodingFormat "text/markdown" .

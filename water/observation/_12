@@ -28,7 +28,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '26.7028'^^xsd:double ;
+        qudt:numericValue '5.99608'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
     ] ;
     schema:measurementTechnique 'Fluorometer 10-AU'^^xsd:string ;
@@ -44,7 +44,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '259.0'^^xsd:double ;
+        qudt:numericValue '244.0'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'YSI ProSolo Digital'^^xsd:string ;
@@ -60,7 +60,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '8.16'^^xsd:double ; 
+        qudt:numericValue '8.144'^^xsd:double ; 
     ] ;
     schema:measurementTechnique 'Thermo scientific  orion star A221'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-rformosa-crate/water/sample/> ; 
@@ -75,7 +75,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '8.16'^^xsd:double ; 
+        qudt:numericValue '8.144'^^xsd:double ; 
     ] ;
     schema:measurementTechnique 'Thermo scientific  orion star A221'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-rformosa-crate/water/sample/> ; 
@@ -90,7 +90,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '0.992351345'^^xsd:double ;
+        qudt:numericValue '0.9972859613'^^xsd:double ;
         qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
     ] ;
     schema:measurementTechnique 'YSI ProSolo Digital'^^xsd:string ;
@@ -106,7 +106,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '35.37'^^xsd:double ;
+        qudt:numericValue '35.66'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'YSI ProSolo Digital'^^xsd:string ;
@@ -122,7 +122,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '17.4'^^xsd:double ;
+        qudt:numericValue '18.9'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'Thermo scientific  orion star A231'^^xsd:string ;
@@ -138,7 +138,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '35.37'^^xsd:double ;
+        qudt:numericValue '35.66'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'YSI ProSolo Digital'^^xsd:string ;
@@ -154,7 +154,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '17.4'^^xsd:double ;
+        qudt:numericValue '18.9'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'Thermo scientific  orion star A231'^^xsd:string ;
